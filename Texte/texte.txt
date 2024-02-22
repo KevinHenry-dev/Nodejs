@@ -1,0 +1,12 @@
+****Création du fichier .js****
+
+1- creer le fichier .js
+2-importer express
+3-mettre le export default(export default router)
+4-creation de la route(exemple:const router = express.Router();)
+
+****configuration du fichier server.js****
+
+dans le fichier server.js:
+1-importation de la variable depuis le fichier .js(exemple:import sneakers from"./router_sneakers.js")
+2-utiliser la variable importée: app.use("/api/sneakers",sneakers)// on met ce prefix dans postman juste apres le port 8000 afin d'afficher la route

@@ -1,0 +1,97 @@
+const data = [
+  {
+    id: 1,
+    name: "franck",
+    email: "franck@yahoo.com"
+  },
+  {
+    id: 2,
+    name: "Thierno",
+    email: "Thierno@yahoo.com",
+  },
+  {
+    id: 3,
+    name: "Marguerite",
+    email: "Marguerite@yahoo.com",
+  },
+    {
+    id: 4,
+    name: "Celia",
+    email: "Celia@yahoo.com",
+  },
+  {
+    id: 5,
+    name: "Jocelyn",
+    email: "Jocelyn@yahoo.com",
+  },
+        {
+    id: 6,
+    name: "Xavier",
+    email: "Xavier@yahoo.com",
+  },
+  {
+    id: 7,
+    name: "Bouba",
+    email: "Bouba@yahoo.com",
+  },
+  {
+    id: 8,
+    name: "Kevin",
+    email: "Kevin@yahoo.com",
+  },
+  {
+    id: 9,
+    name: "Rachida",
+    email: "Rachida@yahoo.com",
+  },
+  {
+    id: 10,
+    name: "Francis",
+    email: "Francis@yahoo.com",
+  },
+    {
+    id: 11,
+    name: "Djamal",
+    email: "Djamal@yahoo.com",
+  },
+  {
+    id: 12,
+    name: "Richard",
+    email: "Richard@yahoo.com",
+  },
+  {
+    id: 13,
+    name: "Virginie",
+    email: "Virginie@yahoo.com",
+  },
+  {
+    id: 14,
+    name: "Noran",
+    email: "Noran@yahoo.com",
+  },
+  {
+    id: 15,
+    name: "David",
+    email: "David@yahoo.com",
+  },
+  {
+    id: 16,
+    name: "Aaron",
+    email: "Aaron@yahoo.com",
+  },
+  {
+    id: 17,
+    name: "Geraldine",
+    email: "Geraldine@yahoo.com",
+  },
+];
+
+Créer un nouveau fichier router_user.js
+Création des routes GET, POST, PUT et DELETE :
+
+- La route GET doit permettre de récupérer l'intégralité des données.
+- La route POST doit permettre d'ajouter un nouvelle utilisateur et renvoyer une réponse JSON du tableau (data).
+- La route PUT doit permettre de modifier le nom d'un utilisateur.
+- La route DELETE doit permettre de supprimer un utilisateur.
+
+Attention : Avant d'effectuer une suppression ou une modification, il est impératif de vérifier que l'ID que vous tentez de supprimer ou de modifier existe bien.
